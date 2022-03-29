@@ -1,0 +1,80 @@
+body {
+	background-color: white;
+}
+
+div.format {
+	width: 410px;
+	border-radius: 8px;
+	background-color: #365e6f;
+}
+
+div {
+	padding: 5px;	
+}
+
+button {
+	border: none;
+	border-radius: 6px;
+	color: black;
+	padding: 5px 12px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttonType1 {
+	background: linear-gradient(to right, #28a5e2 0%, #4283ea 100%);
+	width: 95px;
+}
+
+.buttonType2 {
+	background: #ADFCEA;
+	width: 200px;
+}
+
+.buttonType3 {
+	background: linear-gradient(to right, #d2a73c 0%, #ecd089 100%);
+	width: 95px;
+}
+
+.buttonType4 {
+	background: #AC3939;
+	width: 100px;
+}
+
+.buttonType5 {
+	background: linear-gradient(to right, #0ea463 0%, #38b88e 100%);
+	width: 95px;
+}
+
+.buttonType6 {
+	background: linear-gradient(to right, #fc6570 0%, #ff9648 100%);
+	width: 100px;
+}
+
+input {
+	text-align: right; 
+	width: 400px;
+	font-size: 25px;
+}
+
+.input1 { 
+	height: 50px;
+	color: #ADFCEA;
+	background: #071B00;
+
+}
+
+::placeholder {
+  color: #DAF6FF;
+}
+
+.input2 { 
+	height: 75px;
+	color: white;
+	background: black;
+}
